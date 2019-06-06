@@ -1,1 +1,1 @@
-# webpack-start
+# Webpack start empty project
