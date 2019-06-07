@@ -1,6 +1,7 @@
 import { getMessage } from './message';
 import summModule from './arrow';
-
+import '../assets/svg/jupiter-planet.svg';
+import '../assets/svg/003-book.svg';
 import listItemTmpl from '../list-item.hbs';
 import '../styles/style.css';
 
