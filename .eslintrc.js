@@ -13,8 +13,11 @@ module.exports = {
         'sourceType': 'module',
     },
     'rules': {
-        "indent": ["error", 4],
-        "no-mixed-spaces-and-tabs": ["error",],
+        "indent": ["error", 4, {
+            "ArrayExpression": "off",
+            "ObjectExpression": "off"
+        }],
+        "no-mixed-spaces-and-tabs": ["error", ],
         'linebreak-style': ['error', 'windows'],
         'block-spacing': ['error', 'always'],
         'object-curly-spacing': ['error', 'always'],
