@@ -1,3 +1,3 @@
 export const getMessage = (someText) => {
-  'Printing message from message.js' + someText;
+    'Printing message from message.js' + someText;
 };
