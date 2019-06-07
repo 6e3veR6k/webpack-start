@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  background-color: #323232;
+  color: #fefefe;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
