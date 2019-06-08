@@ -13,7 +13,7 @@ console.log(getMessage(' bezyn4uk'));
 listItemTmpl('text');
 
 function selectTest(params) {
-    return params;
+  return params;
 }
 
 console.log(selectTest(10));
